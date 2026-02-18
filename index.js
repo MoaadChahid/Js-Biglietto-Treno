@@ -20,12 +20,16 @@ if (età < 18) {
 
     let scontoMinorenne = PrezzoBiglietto * 0.8;
 
-    console.log(`Il prezzo del biglietto è di` `${scontoMinorenne}`);
+    console.log(`Il prezzo del biglietto è : ${scontoMinorenne}`);
+    
 } else if (età > 65) {
+
     let scontoOver65 = PrezzoBiglietto * 0.6;
 
-    console.log(`Il prezzo del biglietto è di` `${scontoOver65}`);
+    console.log(`Il prezzo del biglietto è di: ${scontoOver65}`);
+
 } else {
-    console.log(PrezzoBiglietto)
+
+    console.log(`Il prezzo del biglietto è di: ${PrezzoBiglietto}`)
 };
 
